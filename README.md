@@ -1,8 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This source code is part of assessment from aviation learn.
+
+# Production purpose
+
+In the build directory, please find index.html and open at browser. No install any software or dependencies
+
+alternative link : please refer to [https://repl.it/@Dian_AfrialAfri/TicTacToeGame](https://repl.it/@Dian_AfrialAfri/TicTacToeGame)
+
+# Philosophy
+
+The human must take AI & AI must under human.
+
+# Explanation 
+
+Please look up App.js and Board.js, especially board.js. Board.js is main of codes of the TicTacToe algorithm.
+The game show board with consist of 9 squares, each sqaure has index number that number 0 starts at top left corner and number 9 ends at bottom right corner.
+
+The game rule has 2 player, human player is marked by O sign and computer (AI) player is marked by X sign. Human player (us) must take start of the game and AI player responses moving of the human player until the board is fullfill and AI will choose a winner by combination of index numbers. The combinations are [0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6].
+
+The game has AI player with inteligentially checking empty indexes and put random index number. The second intelligence, it will broke the moving of opponent player in an effort to complete the combination of index numbers.
+Based on Philosophy, the AI player no allowed to dominate any moves from human player, which means the AI player has few of winning chances from us ( human player ), perhaps will be categorized as an easy game.
+
+# Development Purpose
+
+## Requirements
+
+- node version minimum 10.0.0 or greather
+- npm version version 6.3.0 or greather
+- terminal/bash/cmd
 
 ## Available Scripts
 
-In the project directory, you can run:
+Please open terminal/bash/cmd you desired. cd to project directory, you can run : 
+
+### `npm install`
+
+Install package dependencies
 
 ### `npm start`
 
@@ -30,15 +62,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
