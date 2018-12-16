@@ -1,16 +1,8 @@
-This source code is part of assessment from aviation learn.
-
-# Production purpose
-
-In the build directory, please find index.html and open at browser. No install any software or dependencies
-
-alternative link : please refer to [https://repl.it/@Dian_AfrialAfri/TicTacToeGame](https://repl.it/@Dian_AfrialAfri/TicTacToeGame)
-
-# Philosophy
+## Philosophy
 
 The human must take AI & AI must under human.
 
-# Explanation 
+## Explanation 
 
 Please look up App.js and Board.js, especially board.js. Board.js is main of codes of the TicTacToe algorithm.
 The game show board with consist of 9 squares, each sqaure has index number that number 0 starts at top left corner and number 9 ends at bottom right corner.
