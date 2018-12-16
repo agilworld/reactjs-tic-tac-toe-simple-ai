@@ -12,7 +12,8 @@ The game rule has 2 player, human player is marked by O sign and computer (AI) p
 The game has AI player with inteligentially checking empty indexes and put random index number. The second intelligence, it will broke the moving of opponent player in an effort to complete the combination of index numbers.
 Based on Philosophy, the AI player no allowed to dominate any moves from human player, which means the AI player has few of winning chances from us ( human player ), perhaps will be categorized as an easy game.
 
-# Development Purpose
+
+# Development Getting Started 
 
 ## Requirements
 
